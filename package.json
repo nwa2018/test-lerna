@@ -4,5 +4,8 @@
   "devDependencies": {
     "lerna": "^3.9.0"
   },
-  "repo": "nwa2018/test-lerna"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwa2018/test-lerna"
+  }
 }
