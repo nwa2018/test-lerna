@@ -1,10 +1,12 @@
 {
   "name": "packagetestlernaa",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
+  "repo": "nwa2018/package-test-1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
     "url": "https://github.com/nwa2018/package-test-1/issues"
   },
   "homepage": "https://github.com/nwa2018/package-test-1#readme",
-  "gitHead": "09aeafeedfb9f89ec05824fe2dbda66caeb7cda5"
+  "gitHead": "09aeafeedfb9f89ec05824fe2dbda66caeb7cda5",
+  "dependencies": {
+    "standard-version": "^4.4.0"
+  }
 }

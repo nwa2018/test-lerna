@@ -3,5 +3,6 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.9.0"
-  }
+  },
+  "repo": "nwa2018/test-lerna"
 }
