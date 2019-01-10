@@ -4,16 +4,12 @@
   "devDependencies": {
     "lerna": "^3.9.0"
   },
-  "changelog": {
-    "repo": "nwa2018/test-lerna",
-    "labels": {
-      "feature": "New Feature",
-      "bug": "Bug Fix"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nwa2018/test-lerna"
   },
-  "version": null
+  "version": null,
+  "dependencies": {
+    "lerna-changelog": "^0.8.2"
+  }
 }
