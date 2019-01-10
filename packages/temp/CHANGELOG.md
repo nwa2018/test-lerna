@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.12](https://github.com/nwa2018/test-lerna/compare/v1.0.9...v1.0.12) (2019-01-10)
+
+
+### Bug Fixes
+
+* **parsing:** fixed a bug in our parser ([313cd1f](https://github.com/nwa2018/test-lerna/commit/313cd1f))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [1.0.11](https://github.com/nwa2018/test-lerna/compare/v1.0.9...v1.0.11) (2019-01-10)
 
 
