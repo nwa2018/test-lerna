@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.1](https://github.com/nwa2018/test-lerna/compare/v0.1.0...v0.1.1) (2019-01-10)
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # [0.1.0](https://github.com/nwa2018/test-lerna/compare/v1.0.23...v0.1.0) (2019-01-10)
 
 
