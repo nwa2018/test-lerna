@@ -7,8 +7,8 @@
       "ignoreChanges": [
         "fev.config.js",
         "*.md",
-        "test/*",
-        "dev/*",
+        "test/**",
+        "dev/**",
         "dist/**"
       ]
     }

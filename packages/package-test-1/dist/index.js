@@ -4,4 +4,4 @@ console.log(3);
 console.log(4);
 
 console.log(4);
-console.log(42);
+console.log(4);
