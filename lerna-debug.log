@@ -9,7 +9,7 @@
 2 notice cli v3.9.0
 3 verbose rootPath /Users/fujuewen/private/test-lerna
 4 info versioning independent
-5 verbose session f6985ec3aa66d15d
+5 verbose session ecfc2625a173a56a
 6 verbose user-agent lerna/3.9.0/node@v8.11.0+x64 (darwin)
 7 silly argv { _: [ 'publish' ],
 7 silly argv   composed: 'publish',
@@ -24,10 +24,10 @@
 12 verbose currentBranch master
 13 silly hasTags
 14 verbose hasTags true
-15 silly git-describe.sync "packagetestlernaa@1.0.24-3-gea7c08e" => {"lastTagName":"packagetestlernaa@1.0.24","lastVersion":"1.0.24","refCount":"3","sha":"ea7c08e","isDirty":false}
+15 silly git-describe.sync "packagetestlernaa@1.0.24-4-gb1de878-dirty" => {"lastTagName":"packagetestlernaa@1.0.24","lastVersion":"1.0.24","refCount":"4","sha":"b1de878","isDirty":true}
 16 info Looking for changed packages since packagetestlernaa@1.0.24
 17 silly diffSinceIn packagetestlernaa@1.0.24 packages/package-test-1
-18 silly diff packages/package-test-1/dist/index.js
+18 silly diff packages/package-test-1/index2.js
 18 silly diff packages/package-test-1/package.json
 19 silly diffSinceIn packagetestlernaa@1.0.24 packages/temp
 20 silly diff packages/temp/package-lock.json
@@ -49,12 +49,12 @@
 27 info execute Skipping git push
 28 silly lifecycle No script for "preversion" in "root", continuing
 29 silly lifecycle "preversion" starting in "packagetestlernaa"
-30 info lifecycle packagetestlernaa@1.0.24~preversion: packagetestlernaa@1.0.24
-31 verbose lifecycle packagetestlernaa@1.0.24~preversion: unsafe-perm in lifecycle true
-32 verbose lifecycle packagetestlernaa@1.0.24~preversion: PATH: /usr/local/lib/node_modules/lerna/node_modules/npm-lifecycle/node-gyp-bin:/Users/fujuewen/private/test-lerna/packages/package-test-1/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Applications/cocos2d-x-3.16/templates:/Applications:/Applications/cocos2d-x-3.16/tools/cocos2d-console/bin:/Users/fujuewen/.rvm/gems/ruby-2.3.1/bin:/Users/fujuewen/.rvm/gems/ruby-2.3.1@global/bin:/Users/fujuewen/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/fujuewen/go/bin:/Users/fujuewen/install/mongodb-osx-x86_64-3.6.3/bin:/Users/fujuewen/.rvm/bin
-33 verbose lifecycle packagetestlernaa@1.0.24~preversion: CWD: /Users/fujuewen/private/test-lerna/packages/package-test-1
-34 silly lifecycle packagetestlernaa@1.0.24~preversion: Args: [ '-c', 'babel ./index.js -o ./dist/index.js' ]
-35 silly lifecycle packagetestlernaa@1.0.24~preversion: Returned: code: 0  signal: null
+30 info lifecycle packagetestlernaa@1.0.26~preversion: packagetestlernaa@1.0.26
+31 verbose lifecycle packagetestlernaa@1.0.26~preversion: unsafe-perm in lifecycle true
+32 verbose lifecycle packagetestlernaa@1.0.26~preversion: PATH: /usr/local/lib/node_modules/lerna/node_modules/npm-lifecycle/node-gyp-bin:/Users/fujuewen/private/test-lerna/packages/package-test-1/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Applications/cocos2d-x-3.16/templates:/Applications:/Applications/cocos2d-x-3.16/tools/cocos2d-console/bin:/Users/fujuewen/.rvm/gems/ruby-2.3.1/bin:/Users/fujuewen/.rvm/gems/ruby-2.3.1@global/bin:/Users/fujuewen/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/fujuewen/go/bin:/Users/fujuewen/install/mongodb-osx-x86_64-3.6.3/bin:/Users/fujuewen/.rvm/bin
+33 verbose lifecycle packagetestlernaa@1.0.26~preversion: CWD: /Users/fujuewen/private/test-lerna/packages/package-test-1
+34 silly lifecycle packagetestlernaa@1.0.26~preversion: Args: [ '-c', 'babel ./index.js -o ./dist/index.js' ]
+35 silly lifecycle packagetestlernaa@1.0.26~preversion: Returned: code: 0  signal: null
 36 silly lifecycle "preversion" finished in "packagetestlernaa"
 37 silly lifecycle No script for "version" in "packagetestlernaa", continuing
 38 silly lifecycle No script for "preversion" in "@fev/temp", continuing
@@ -75,7 +75,7 @@
 45 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 46 warn ENOLICENSE Packages packagetestlernaa, @fev/temp are missing a license
 47 silly getCurrentSHA
-48 verbose getCurrentSHA ea7c08e933a36b08da1c3b7f8d02df34709d5f8e
+48 verbose getCurrentSHA b1de878547b0128518994143b77c9cec0afed4fc
 49 silly lifecycle No script for "prepublish" in "root", continuing
 50 silly lifecycle No script for "prepare" in "root", continuing
 51 silly lifecycle No script for "prepublishOnly" in "root", continuing
@@ -96,7 +96,7 @@
 66 verbose packed @fev/temp packages/temp
 67 silly lifecycle No script for "postpack" in "root", continuing
 68 verbose publish packagetestlernaa
-69 http fetch PUT 403 http://registry.npmjs.org/packagetestlernaa 1000ms
-70 error Error: 403 Forbidden - PUT http://registry.npmjs.org/packagetestlernaa - You cannot publish over the previously published versions: 1.0.25.
+69 http fetch PUT 403 http://registry.npmjs.org/packagetestlernaa 455ms
+70 error Error: 403 Forbidden - PUT http://registry.npmjs.org/packagetestlernaa - You cannot publish over the previously published versions: 1.0.27.
 70 error     at res.buffer.catch.then.body (/usr/local/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:104:15)
 70 error     at <anonymous>
