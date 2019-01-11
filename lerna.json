@@ -9,7 +9,8 @@
         "*.md",
         "test/**",
         "dev/**",
-        "dist/test.js"
+        "dist/test.js",
+        "dist/*.js"
       ]
     }
   },
