@@ -8,7 +8,8 @@
         "fev.config.js",
         "*.md",
         "test/*",
-        "dev/*"
+        "dev/*",
+        "dist/*"
       ]
     }
   },
