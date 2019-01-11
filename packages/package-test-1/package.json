@@ -1,12 +1,12 @@
 {
   "name": "packagetestlernaa",
-  "version": "1.0.39",
+  "version": "1.1.40",
   "description": "",
   "main": "index.js",
   "repo": "nwa2018/package-test-1",
   "scripts": {
     "test": "node ./test.js",
-    "s": "standard-version",
+    "s": "standard-version && git push --follow-tags origin master && npm publish",
     "preversion": "babel ./index.js -o ./dist/index.js"
   },
   "repository": {
