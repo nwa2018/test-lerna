@@ -8,8 +8,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "packagetestlernaa": "^1.0.31"
-  },
+  "dependencies": {},
   "gitHead": "b1de878547b0128518994143b77c9cec0afed4fc"
 }
