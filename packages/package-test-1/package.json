@@ -6,9 +6,9 @@
   "repo": "nwa2018/package-test-1",
   "scripts": {
     "test": "node ./test.js",
-    "s": "standard-version"
+    "s": "standard-version",
+    "preversion": "node ./test.js",
   },
-  "preversion": "node ./test.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nwa2018/package-test-1.git"
