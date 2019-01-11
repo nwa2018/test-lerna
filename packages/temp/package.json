@@ -1,6 +1,6 @@
 {
   "name": "@fev/temp",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "packagetestlernaa": "^1.0.27"
+    "packagetestlernaa": "^1.0.29"
   },
   "gitHead": "b1de878547b0128518994143b77c9cec0afed4fc"
 }
