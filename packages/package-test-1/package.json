@@ -1,6 +1,6 @@
 {
   "name": "packagetestlernaa",
-  "version": "1.0.24",
+  "version": "1.0.26",
   "description": "",
   "main": "index.js",
   "repo": "nwa2018/package-test-1",
@@ -19,7 +19,7 @@
     "url": "https://github.com/nwa2018/package-test-1/issues"
   },
   "homepage": "https://github.com/nwa2018/package-test-1#readme",
-  "gitHead": "b35e9b4bfe3f8c4ddaece73024cd15590a8e91fd",
+  "gitHead": "ea7c08e933a36b08da1c3b7f8d02df34709d5f8e",
   "dependencies": {
     "standard-version": "^4.4.0"
   }
