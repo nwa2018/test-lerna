@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.42"></a>
+## [1.1.42](https://github.com/nwa2018/package-test-1/compare/v1.1.41...v1.1.42) (2019-01-11)
+
+
+### Bug Fixes
+
+* 发送 ([608c796](https://github.com/nwa2018/package-test-1/commit/608c796))
+
+
+
 <a name="1.1.41"></a>
 ## [1.1.41](https://github.com/nwa2018/package-test-1/compare/v0.1.3...v1.1.41) (2019-01-11)
 
