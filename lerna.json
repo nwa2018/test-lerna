@@ -2,14 +2,15 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent",
-  "changelog": {
-    "repo": "nwa2018/test-lerna",
-    "labels": {
-      "feature": "New Feature",
-      "bug": "Bug Fix",
-      "tag: enhancement": "Enhancement"
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "fev.config.js",
+        "*.md",
+        "test/*",
+        "dev/*"
+      ]
     }
   },
-  "cacheDir": ".changelog"
+  "version": "independent"
 }
