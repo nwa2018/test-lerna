@@ -9,7 +9,8 @@
         "*.md",
         "test/*",
         "dev/*",
-        "dist/*"
+        "dist/*",
+        "index.js"
       ]
     }
   },
