@@ -1,6 +1,98 @@
-33 error Error: Command failed: git add -- packages/package-test-1/package.json
-33 error fatal: Pathspec 'packages/package-test-1/package.json' is in submodule 'packages/package-test-1'
-33 error
-33 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
-33 error     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
-33 error     at <anonymous>
+0 warn deprecated --skip-git has been replaced by --no-git-tag-version --no-push
+1 silly argv { _: [ 'publish' ],
+1 silly argv   composed: 'publish',
+1 silly argv   lernaVersion: '3.9.0',
+1 silly argv   '$0': 'lerna',
+1 silly argv   gitTagVersion: false,
+1 silly argv   'git-tag-version': false,
+1 silly argv   push: false }
+2 notice cli v3.9.0
+3 verbose rootPath /Users/fujuewen/private/test-lerna
+4 info versioning independent
+5 verbose session 190ad909d39c5b8a
+6 verbose user-agent lerna/3.9.0/node@v8.11.0+x64 (darwin)
+7 silly argv { _: [ 'publish' ],
+7 silly argv   composed: 'publish',
+7 silly argv   lernaVersion: '3.9.0',
+7 silly argv   gitTagVersion: false,
+7 silly argv   'git-tag-version': false,
+7 silly argv   push: false }
+8 verbose rootPath /Users/fujuewen/private/test-lerna
+9 silly isAnythingCommitted
+10 verbose isAnythingCommitted 1
+11 silly currentBranch
+12 verbose currentBranch master
+13 silly hasTags
+14 verbose hasTags true
+15 silly git-describe.sync "@fev/temp@1.0.26-2-gb35e9b4" => {"lastTagName":"@fev/temp@1.0.26","lastVersion":"1.0.26","refCount":"2","sha":"b35e9b4","isDirty":false}
+16 info Looking for changed packages since @fev/temp@1.0.26
+17 silly diffSinceIn @fev/temp@1.0.26 packages/package-test-1
+18 silly diff packages/package-test-1
+19 silly diffSinceIn @fev/temp@1.0.26 packages/temp
+20 silly diff
+21 verbose updated packagetestlernaa
+22 warn version Skipping working tree validation, proceed at your own risk
+23 silly batched [ PackageGraphNode {
+23 silly batched     name: 'packagetestlernaa',
+23 silly batched     externalDependencies: Map { 'standard-version' => [Object] },
+23 silly batched     localDependencies: Map {},
+23 silly batched     localDependents: Map {} } ]
+24 info execute Skipping git tag/commit
+25 info execute Skipping git push
+26 silly lifecycle No script for "preversion" in "root", continuing
+27 silly lifecycle No script for "preversion" in "packagetestlernaa", continuing
+28 silly lifecycle No script for "version" in "packagetestlernaa", continuing
+29 silly lifecycle No script for "version" in "root", continuing
+30 silly batched [ PackageGraphNode {
+30 silly batched     name: 'packagetestlernaa',
+30 silly batched     externalDependencies: Map { 'standard-version' => [Object] },
+30 silly batched     localDependencies: Map {},
+30 silly batched     localDependents: Map {} } ]
+31 info publish Publishing packages to npm...
+32 notice Skipping all user and access validation due to third-party registry
+33 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+34 warn ENOLICENSE Packages packagetestlernaa are missing a license
+35 silly getCurrentSHA
+36 verbose getCurrentSHA b35e9b4bfe3f8c4ddaece73024cd15590a8e91fd
+37 silly lifecycle No script for "prepublish" in "root", continuing
+38 silly lifecycle No script for "prepare" in "root", continuing
+39 silly lifecycle No script for "prepublishOnly" in "root", continuing
+40 silly lifecycle No script for "prepack" in "root", continuing
+41 verbose pack-directory packages/package-test-1
+42 silly lifecycle No script for "prepublish" in "packagetestlernaa", continuing
+43 silly lifecycle No script for "prepare" in "packagetestlernaa", continuing
+44 silly lifecycle No script for "prepublishOnly" in "packagetestlernaa", continuing
+45 silly lifecycle No script for "prepack" in "packagetestlernaa", continuing
+46 silly lifecycle No script for "postpack" in "packagetestlernaa", continuing
+47 verbose packed packagetestlernaa packages/package-test-1
+48 silly lifecycle No script for "postpack" in "root", continuing
+49 verbose publish packagetestlernaa
+50 silly lifecycle No script for "publish" in "packagetestlernaa", continuing
+51 silly lifecycle No script for "postpublish" in "packagetestlernaa", continuing
+52 success published packagetestlernaa 1.0.13
+53 notice
+54 notice 📦  packagetestlernaa@1.0.13
+55 notice === Tarball Contents ===
+56 notice 644B package.json
+56 notice 302B CHANGELOG.md
+56 notice 45B  index.js
+57 notice === Tarball Details ===
+58 notice name:          packagetestlernaa
+58 notice version:       1.0.13
+58 notice filename:      packagetestlernaa-1.0.13.tgz
+58 notice package size:  647 B
+58 notice unpacked size: 991 B
+58 notice shasum:        2a7aaf375baf3cd0236f787940a2ed2a02757dfc
+58 notice integrity:     sha512-aUgyXIb/q6PgH[...]apeYAOl6gwxSw==
+58 notice total files:   3
+59 notice
+60 silly lifecycle No script for "publish" in "root", continuing
+61 silly lifecycle No script for "postpublish" in "root", continuing
+62 silly gitCheckout [ 'package.json', 'packages/package-test-1/package.json' ]
+63 http fetch PUT 200 http://registry.npmjs.org/packagetestlernaa 4207ms
+64 error Error: Command failed: git checkout -- package.json packages/package-test-1/package.json
+64 error error: pathspec 'packages/package-test-1/package.json' did not match any file(s) known to git.
+64 error
+64 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+64 error     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
+64 error     at <anonymous>
