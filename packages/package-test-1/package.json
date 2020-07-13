@@ -21,6 +21,6 @@
   "homepage": "https://github.com/nwa2018/package-test-1#readme",
   "gitHead": "b1de878547b0128518994143b77c9cec0afed4fc",
   "dependencies": {
-    "standard-version": "^4.4.0"
+    "standard-version": "^8.0.1"
   }
 }
